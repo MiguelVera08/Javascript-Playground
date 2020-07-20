@@ -16,6 +16,12 @@
       var inputs = new Array();
       inputs[0] = docuement.getElementById('first').value;
       inputs[1] = docuement.getElementById('last').value;
-    
+      inputs[2] = document.getElementById('email').value;
+      inputs[3] = document.getElementById('uid').value;
+      inputs[4] = document.getElementById('password').value;
+      inputs[5] = document.getElementById('confirm').value;
+      
+      //Array that holds the error messages for wrong inputs
+      
   </script>
 </html>
