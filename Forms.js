@@ -22,6 +22,9 @@
       inputs[5] = document.getElementById('confirm').value;
       
       //Array that holds the error messages for wrong inputs
+      errors[0] = "<span style='color:red'>Please enter your first name!</span>";
+      errors[1] = "<span style='color:red'>Please enter your last name!</span>";
+      errors[2] = "<span style='color:red'>Please enter your email!</span>";
       
   </script>
 </html>
