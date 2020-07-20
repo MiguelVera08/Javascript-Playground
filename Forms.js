@@ -28,5 +28,20 @@
       errors[3] = "<span style='color:red'>Please enter your user id!</span>";
       errors[4] = "<span style='color:red'>Please enter your password!</span>";
       errors[5] = "<span style='color:red'>Please confirm your password!</span>";
+      for (i in inputs){
+        var errMessage = errors[i];
+        var div = divs[i];
+        if (inputs[i] == ""){
+          docuement.getElementById(div).innerHTML = errMessage;
+        }else if (i == 2){
+          var atpos=inputs[i].indexOf("@");
+          var dotpos=inputs[i].lastIndexOf(".");
+          if (atpos<1 || dotpos<atpos+2 || dotpos+2>=inputs[i].length){
+        	  document.getElementById('errEmail').innerHTML = "<span style='color: red'>Enter a valid email address!</span>";
+          }else{
+        	  document.getElementById(div).innerHTML = "OK!";
+          }
+        }
+      }
   </script>
 </html>
