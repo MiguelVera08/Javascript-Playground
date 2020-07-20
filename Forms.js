@@ -25,6 +25,8 @@
       errors[0] = "<span style='color:red'>Please enter your first name!</span>";
       errors[1] = "<span style='color:red'>Please enter your last name!</span>";
       errors[2] = "<span style='color:red'>Please enter your email!</span>";
-      
+      errors[3] = "<span style='color:red'>Please enter your user id!</span>";
+      errors[4] = "<span style='color:red'>Please enter your password!</span>";
+      errors[5] = "<span style='color:red'>Please confirm your password!</span>";
   </script>
 </html>
