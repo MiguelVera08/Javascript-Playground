@@ -41,6 +41,14 @@
           }else{
         	  document.getElementById(div).innerHTML = "OK!";
           }
+        }else if (i == 5){
+          //validation for password
+          var first = document.getElementById('password').value;
+          var second = document.getElementById('confirm').value;
+          
+          if(second != first){
+            
+          }
         }
       }
   </script>
