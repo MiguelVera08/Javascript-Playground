@@ -55,5 +55,8 @@
           document.getElementById(div).innerHTML = "OK!";
         }
       }
+      //validation function
+      function finalValidate(){
+      }
   </script>
 </html>
