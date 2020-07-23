@@ -47,8 +47,12 @@
           var second = document.getElementById('confirm').value;
           
           if(second != first){
-            
+            document.getElementById('errConfirm').innerHTML = "<span style='color: red'>Your passwords don't match!</span>"
+          }else{
+            document.getElementById(div).innerHTML = "OK!";
           }
+        }else{
+          document.getElementById(div).innerHTML = "OK!";
         }
       }
   </script>
