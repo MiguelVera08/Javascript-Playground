@@ -63,7 +63,8 @@
           if(document.getElementById(div).innerHTML == "OK!"){
               count = count + 1;
             }
-          
+          if(count == 6)
+          	document.getElementById("errFinal").innerHTML = "Access Allowed";
           }
         }
       }
