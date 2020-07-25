@@ -69,4 +69,10 @@
         }
       }
   </script>
+
+<body>
+    <table id="table1">
+      <tr>
+      </tr>
+</body>
 </html>
