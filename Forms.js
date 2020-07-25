@@ -73,6 +73,8 @@
 <body>
     <table id="table1">
       <tr>
+        <td>First Name:</td>
+        <td><input type="text" id="first" onkeyup="validate();" /></td>
       </tr>
 </body>
 </html>
