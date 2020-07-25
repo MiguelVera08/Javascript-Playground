@@ -75,6 +75,7 @@
       <tr>
         <td>First Name:</td>
         <td><input type="text" id="first" onkeyup="validate();" /></td>
+        <td><div id="errFirst"></div></td>
       </tr>
 </body>
 </html>
