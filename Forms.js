@@ -87,5 +87,10 @@
         <td><input type="text" id="email" onkeyup="validate();"/></td>
         <td><div id="errEmail"></div></td>
       </tr>
+      <tr>
+        <td>User Id:</td>
+        <td><input type="text" id="uid" onkeyup="validate();"/></td>
+        <td><div id="errUid"></div></td>
+      </tr>
 </body>
 </html>
