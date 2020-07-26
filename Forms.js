@@ -77,5 +77,10 @@
         <td><input type="text" id="first" onkeyup="validate();" /></td>
         <td><div id="errFirst"></div></td>
       </tr>
+      <tr>
+        <td>Last Name:</td>
+        <td><input type="text" id="last" onkeyup="validate();"/></td>
+        <td><div id="errLast"></div></td>
+      </tr>
 </body>
 </html>
