@@ -82,5 +82,10 @@
         <td><input type="text" id="last" onkeyup="validate();"/></td>
         <td><div id="errLast"></div></td>
       </tr>
+      <tr>
+        <td>Email:</td>
+        <td><input type="text" id="email" onkeyup="validate();"/></td>
+        <td><div id="errEmail"></div></td>
+      </tr>
 </body>
 </html>
