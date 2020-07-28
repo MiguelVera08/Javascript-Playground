@@ -97,5 +97,10 @@
         <td><input type="password" id="password" onkeyup="validate();"/></td>
         <td><div id="errPassword"></div></td>
       </tr>
+      <tr>
+        <td>Confirm Password:</td>
+        <td><input type="password" id="confirm" onkeyup="validate();"/></td>
+        <td><div id="errConfirm"></div></td>
+      </tr>
 </body>
 </html>
