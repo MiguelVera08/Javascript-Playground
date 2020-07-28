@@ -92,5 +92,10 @@
         <td><input type="text" id="uid" onkeyup="validate();"/></td>
         <td><div id="errUid"></div></td>
       </tr>
+      <tr>
+        <td>Password:</td>
+        <td><input type="password" id="password" onkeyup="validate();"/></td>
+        <td><div id="errPassword"></div></td>
+      </tr>
 </body>
 </html>
