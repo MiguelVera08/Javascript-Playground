@@ -102,5 +102,9 @@
         <td><input type="password" id="confirm" onkeyup="validate();"/></td>
         <td><div id="errConfirm"></div></td>
       </tr>
+      <tr>
+        <td><input type="button" id="create" value="Create" onclick="validate();finalValidate();"/></td>
+        <td><div id="errFinal"></div></td>
+      </tr>
 </body>
 </html>
