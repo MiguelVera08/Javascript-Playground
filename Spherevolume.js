@@ -14,5 +14,7 @@
   <form action="" method="post" id="MyForm">
     <label for="radius">Radius</label><input type="text" name="radius" id="radius" required>
     <label for="volume">Volume</label><input type="text" name="volume" id="volume">
+    <input type="submit" value="Calculate" id="submit">    
+  </form>
 </body>
 </html>
