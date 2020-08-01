@@ -11,5 +11,8 @@
 </head>
 <body>
   <p>Please put radius value to get volume of a sphere.</p>
+  <form action="" method="post" id="MyForm">
+    <label for="radius">Radius</label><input type="text" name="radius" id="radius" required>
+    <label for="volume">Volume</label><input type="text" name="volume" id="volume">
 </body>
 </html>
