@@ -16,5 +16,12 @@
     <label for="volume">Volume</label><input type="text" name="volume" id="volume">
     <input type="submit" value="Calculate" id="submit">    
   </form>
+
+  <script>
+      function volume_sphere(){
+        var volume;
+        var radius = document.getElementById('radius').value;
+    }
+  </script>
 </body>
 </html>
