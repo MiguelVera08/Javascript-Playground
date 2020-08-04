@@ -27,6 +27,7 @@
         document.getElementById('volume').value = volume;
         return false;
     }
+  window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
   </script>
 </body>
 </html>
