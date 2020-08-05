@@ -5,6 +5,9 @@
   <title>Javascript function that counts the number of vowels in a string.</title>
 </head>
 <body>
-
+    <script>
+      function vowel_count(str){
+      }
+    </script>
 </body>
 </html>
