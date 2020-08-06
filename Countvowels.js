@@ -14,3 +14,7 @@
 </html>
 
 
+//Example output
+//console.log(vowel_count('The quick brown fox jumps over the lazy dog'));
+//
+//will show 11
