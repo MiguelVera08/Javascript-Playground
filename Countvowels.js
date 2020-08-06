@@ -7,7 +7,10 @@
 <body>
     <script>
       function vowel_count(str){
+        return str.match(/[aeiou]/gi).length;
       }
     </script>
 </body>
 </html>
+
+
