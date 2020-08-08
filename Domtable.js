@@ -17,3 +17,10 @@ body {margin: 30px;}
      <td>Row2 cell2</td></tr> 
      <tr><td>Row3 cell1</td> 
      <td>Row3 cell2</td></tr>
+  </table>
+
+  <form>
+       <input type="button" onclick="changeContent()" value="Change content">
+  </form>
+</body>
+</html>
