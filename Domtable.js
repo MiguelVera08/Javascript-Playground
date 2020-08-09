@@ -22,5 +22,12 @@ body {margin: 30px;}
   <form>
        <input type="button" onclick="changeContent()" value="Change content">
   </form>
+
+  <script>
+         function changeContent(){
+          rn = window.prompt("Input the row Number example.. (0,1,2)", "0");
+         }
+  </script>
+
 </body>
 </html>
