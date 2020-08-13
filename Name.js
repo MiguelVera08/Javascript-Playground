@@ -10,5 +10,8 @@
   </head>
 <body>
     <form id="form1" onsubmit="getFormvalue()">
+      First name: <input type="text" name="fname" value="Miguel"><br>
+      Last name: <input type="text" name="lname" value="Vera"><br>
+    </form>
 </body>
 </html>
