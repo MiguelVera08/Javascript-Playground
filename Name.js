@@ -13,5 +13,12 @@
       First name: <input type="text" name="fname" value="Miguel"><br>
       Last name: <input type="text" name="lname" value="Vera"><br>
     </form>
+
+
+<script>
+    function getFromvalue(){
+        var x = document.getElementById("form1");
+    }
+</script>
 </body>
 </html>
