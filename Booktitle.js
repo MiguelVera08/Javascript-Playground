@@ -6,5 +6,8 @@
 <title>Book Library</title>
 </head>
 <body>
+  <script>
+    var library = [];
+  </script>
 </body>
 </html>
