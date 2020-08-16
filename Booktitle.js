@@ -18,8 +18,11 @@
         author: 'Walter Isaacson',
         readingStatus: true
       },
-     
-      
+      {
+        title: 'Mockingjay: The Final Book of The Hunger Games',
+        author: 'Suzanne Collins',
+        readingStatus: false
+      }];  
   </script>
 </body>
 </html>
