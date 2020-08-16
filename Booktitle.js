@@ -13,6 +13,11 @@
         author: 'The Road Ahead',
         readingStatus: true
       },
+      {
+        title: 'Steve Jobs',
+        author: 'Walter Isaacson',
+        readingStatus: true
+      },
      
       
   </script>
