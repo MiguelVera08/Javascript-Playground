@@ -7,7 +7,14 @@
 </head>
 <body>
   <script>
-    var library = [];
+    var library = [
+      {
+        title: 'Bill Gates',
+        author: 'The Road Ahead',
+        readingStatus: true
+      },
+     
+      
   </script>
 </body>
 </html>
