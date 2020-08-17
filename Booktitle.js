@@ -31,7 +31,7 @@
         if(library[i].readingStatus){
           console.log("Already read " + book);
         }else{
-          
+          console.log("You still need to read " + book);
         {
       }
   </script>
