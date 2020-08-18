@@ -5,5 +5,8 @@
   <title>Bubble Sort</title>
   </head>
   <body>
+    <script>
+      Array.prototype.bubbleSort_algo = function()
+    </script>
   </body>
 </html>  
