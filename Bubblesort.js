@@ -6,7 +6,11 @@
   </head>
   <body>
     <script>
-      Array.prototype.bubbleSort_algo = function()
+      Array.prototype.bubbleSort_algo = function(){
+    
+        var is_sorted = false;
+    
+      }
     </script>
   </body>
 </html>  
