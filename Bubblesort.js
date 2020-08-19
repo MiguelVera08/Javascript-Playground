@@ -12,6 +12,9 @@
         while (!is_sorted){
           is_sorted = true;
           for (var n = 0; n <this.length -1; n++){
+            if (this[n] > this[n+1]){
+              var x = this[n+1];
+            }
           }
         }
       }
