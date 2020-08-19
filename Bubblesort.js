@@ -9,7 +9,11 @@
       Array.prototype.bubbleSort_algo = function(){
     
         var is_sorted = false;
-    
+        while (!is_sorted){
+          is_sorted = true;
+          for (var n = 0; n <this.length -1; n++){
+          }
+        }
       }
     </script>
   </body>
