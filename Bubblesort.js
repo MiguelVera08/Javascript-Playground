@@ -14,10 +14,14 @@
           for (var n = 0; n <this.length -1; n++){
             if (this[n] > this[n+1]){
               var x = this[n+1];
+              this[n+1] = this[n];
+              this[n] = x;
+              is_sorted = false;
             }
           }
         }
-      }
+        return this;
+      };
     </script>
   </body>
 </html>  
