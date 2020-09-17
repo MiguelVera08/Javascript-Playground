@@ -25,4 +25,4 @@
       console.log([6,4,0, 3,-2,1].bubbleSort_algo())
     </script>
   </body>
-</html>  
+</html>;
