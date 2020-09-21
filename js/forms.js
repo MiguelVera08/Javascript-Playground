@@ -29,7 +29,7 @@ function validate(){
         var errMessage = errors[i];
         var div = divs[i];
         if (inputs[i] == ""){
-            docuement.getElementById(div).innerHTML = errMessage;
+            document.getElementById(div).innerHTML = errMessage;
         }else if (i == 2){
             var atpos=inputs[i].indexOf("@");
             var dotpos=inputs[i].lastIndexOf(".");
