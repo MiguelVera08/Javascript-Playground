@@ -9,9 +9,9 @@
     var cols = prompt("Enter the number of columns for the table?");
     
   //If statement incase user does not enter value or leaves input empty
-  if(rows == "" || rows == null)
+  if(rows === "" || rows == null)
     rows = 10;
-  if(cols == "" || cols == null)
+  if(cols === "" || cols == null)
     cols = 10;
   
   createTable(rows, cols);
@@ -30,8 +30,8 @@
       output = output + "</tr>";
       j = 1;
   }
-  output = output +  "</table>";
-  docuement.write(ouput);
+  var output = output +  "</table>";
+  document.write(output);
   }
   </script>
 </head>
